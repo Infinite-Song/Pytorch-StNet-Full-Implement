@@ -5,4 +5,4 @@ The data set I use in trainning is UCF-101 https://www.crcv.ucf.edu/research/dat
 
 The StNet is proposed by https://arxiv.org/pdf/1811.01549.pdf
  
-The rsults seem not correspond to the paper. I will try to fix this repositories.
+The rsults seem not correspond to the paper. I will try to fix this problem. I am very interseting in this model. I really hope that the author can realese their code.
