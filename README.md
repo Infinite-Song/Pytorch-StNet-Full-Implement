@@ -9,4 +9,7 @@ The results seem not correspond to the paper. I will try to fix this problem. I 
 
 ## Requirement
   Python2.7 or Python 3.6
+  
   Pytorch 0.4.1
+  
+  visdom
