@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56a5166a-f802-4c9c-8bf7-37428170d81e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/stnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/stnet.py" afterDir="false" />
-    </list>
+    <list default="true" id="56a5166a-f802-4c9c-8bf7-37428170d81e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,15 +57,6 @@
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IndexRead.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -220,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552728743528</updated>
       <workItem from="1552728748434" duration="37000" />
-      <workItem from="1552967559858" duration="4248000" />
+      <workItem from="1552967559858" duration="4721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4285000" />
+    <option name="totallyTimeSpent" value="4758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
