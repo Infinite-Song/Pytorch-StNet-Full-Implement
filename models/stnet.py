@@ -33,7 +33,7 @@ class StNet(nn.Module):
         self.temp2 = TemporalBlock(512)
         self.xception = TemporalXception(1024, 2048)
         self.fc = nn.Linear(2048, num_classes)
-        self.dropout = nn.Dropout(p=0.5)
+        self.dropout = nn.Dropout(p=0.2)
 
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
@@ -92,7 +92,7 @@ class StNet(nn.Module):
         # size (batch_size, T, Ci)
         x = self.xception(x)
         x = self.fc(x)
-        # x = self.dropout(x)
+        x = self.dropout(x)
 
         return x
 
