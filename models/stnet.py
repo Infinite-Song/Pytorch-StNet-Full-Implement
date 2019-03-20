@@ -92,7 +92,7 @@ class StNet(nn.Module):
         # size (batch_size, T, Ci)
         x = self.xception(x)
         x = self.fc(x)
-        x = self.dropout(x)
+        # x = self.dropout(x)
 
         return x
 

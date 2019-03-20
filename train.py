@@ -178,14 +178,14 @@ if __name__ == '__main__':
     # data_transform
     data_transforms = {
         'train': transforms.Compose([
-            transforms.RandomResizedCrop(224),
+            #transforms.RandomResizedCrop(224),
             transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
             transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
         ]),
         'val': transforms.Compose([
-            transforms.Resize(256),
-            transforms.CenterCrop(224),
+            #transforms.Resize(256),
+            #transforms.CenterCrop(224),
             transforms.ToTensor(),
             transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
         ])}
